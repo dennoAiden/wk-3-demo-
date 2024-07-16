@@ -1,0 +1,88 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  body {
+    font-family: 'Times New Roman';
+    background-color: white;
+    color: #333;
+  }
+    header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Main content layout */
+  main {
+    display: flex;
+    padding: 20px;
+  }
+  
+  /* Sidebar styling */
+  aside {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 20px;
+  }
+  
+  #films {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  #films li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  #films li:hover {
+    background: #f4f4f4;
+  }
+  
+  #movie-details {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #movie-details h2 {
+    margin-bottom: 15px;
+  }
+  
+  #movie-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  #movie-details p {
+    margin-bottom: 10px;
+  }
+  
+  #purchase-button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #purchase-button:hover {
+    background: #0f22ca;
+  }
+  
